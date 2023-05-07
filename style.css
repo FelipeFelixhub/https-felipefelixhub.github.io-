@@ -161,3 +161,10 @@ html {
     color: #555;
 }
 
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100px;
+        flex-direction: column;
+    
+    }
+}
